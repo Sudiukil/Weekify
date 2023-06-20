@@ -8,7 +8,7 @@ require 'uri'
 module Spotify
   # Spotify authentication wrapper class
   class Authentication
-    REDIRECT_URI = 'http://localhost:7532/callback'
+    REDIRECT_URI = "#{ENV['WEEKIFY_ROOT_URL']}/callback"
     AUTH_URL = URI('https://accounts.spotify.com/authorize')
     TOKEN_URL = URI('https://accounts.spotify.com/api/token')
 
