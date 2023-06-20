@@ -1,3 +1,3 @@
 # Weekify
 
-Ruby automation scripts for Spotify
+Weekify is a small Ruby/Sinatra server to help with building Spotify playlists.
